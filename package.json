@@ -9,5 +9,24 @@
     "nodemon": "^2.0.12",
     "pg": "^8.7.1",
     "urlencode": "^1.1.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "quiz_1_new",
+  "version": "1.0.0",
+  "main": "knexfile.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhmoon94/quiz_1_new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhmoon94/quiz_1_new/issues"
+  },
+  "homepage": "https://github.com/jhmoon94/quiz_1_new#readme",
+  "description": ""
 }
