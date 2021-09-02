@@ -5,17 +5,11 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      filename: 'cluckr'
+      database: 'cluckr_dev'
+    },
+    migrations: {
+      tableName: 'knex_migrations',
+      directory: 'db/migrations'
     }
-  },
-
-  migrations: {
-    tableName: 'migrations',
-    directory: './db/migrations'
-  },
-
-  seeds: {
-    directory: "./db/seeds"
   }
-
 };
